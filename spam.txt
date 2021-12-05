@@ -1,0 +1,20 @@
+# Spam Masker
+masker các link tồn tại trong input
+chỉ masker đối với link bắt đầu với http://
+
+input:
+Here: http://www.mylink.com Click!
+ouput:
+Here: http://************** Click!
+
+input: 
+Here:
+http://www.mylink.com
+http://www.mylink.com
+Click!
+
+ouput:
+Here:
+http://**************
+http://**************
+Click!
